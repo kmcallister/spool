@@ -22,7 +22,8 @@ description:
   guarantee of correct behavior.
 
 extra-source-files:
-  test/test.hs
+    test/test.hs
+  , README
 
 library
   exposed-modules:  Data.Vector.Storable.ByteString
