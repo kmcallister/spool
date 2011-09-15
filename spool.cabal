@@ -7,7 +7,7 @@ category:            Data Structures
 author:              Keegan McAllister <mcallister.keegan@gmail.com>
 maintainer:          Keegan McAllister <mcallister.keegan@gmail.com>
 build-type:          Simple
-cabal-version:       >=1.2
+cabal-version:       >=1.6
 description:
   This library allows conversion between the types from @Data.ByteString@
   (package @bytestring@) and @Data.Vector.Storable@ (package @vector@) without
@@ -31,3 +31,7 @@ library
       base       >= 3 && < 5
     , bytestring >= 0.9
     , vector     >= 0.7
+
+source-repository head
+    type:     git
+    location: git://github.com/kmcallister/spool.git
