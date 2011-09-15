@@ -21,6 +21,9 @@ description:
   way to document and standardize an existing hack, and not as an absolute
   guarantee of correct behavior.
 
+extra-source-files:
+  test/test.hs
+
 library
   exposed-modules:  Data.Vector.Storable.ByteString
   ghc-options:      -Wall
